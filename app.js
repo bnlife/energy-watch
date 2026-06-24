@@ -1,5 +1,5 @@
 // GitHub raw URL 基础路径
-const BASE_URL = 'https://raw.githubusercontent.com/bnlife/energy-watch/main/data';
+const BASE_URL = 'https://raw.githubusercontent.com/bnlife/energy-watch/gh-pages/data';
 
 // 国家代码映射
 const countries = ['china', 'japan', 'usa', 'germany'];
