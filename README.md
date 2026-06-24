@@ -2,8 +2,6 @@
 
 全球能源价格追踪器，监控中国、日本、美国、德国的汽油和居民电价。
 
-🔗 在线访问：https://bnlife.github.io/energy-watch/
-
 ## 数据来源
 
 [GlobalPetrolPrices.com](https://www.globalpetrolprices.com/) - 每周更新
