@@ -27,7 +27,7 @@ def get_exchange_rates():
                 'CNY': 1.0,
                 'USD': usd_to_cny,
                 'JPY': usd_to_cny / usd_to_jpy,
-                'EUR': usd_to_cny * usd_to_eur,
+                'EUR': usd_to_cny / usd_to_eur,
             }
     except Exception as e:
         print(f"获取汇率失败，使用默认值: {e}")

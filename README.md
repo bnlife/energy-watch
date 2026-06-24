@@ -6,6 +6,8 @@
 
 [GlobalPetrolPrices.com](https://www.globalpetrolprices.com/) - 每周更新
 
+价格通过实时汇率（open.er-api.com）从当地货币自动换算为人民币：原始价格 ×（USD→CNY汇率 / 当地货币→USD汇率）。
+
 ## 自动更新
 
 GitHub Actions 每周一 09:00 (北京时间) 自动爬取最新数据。
