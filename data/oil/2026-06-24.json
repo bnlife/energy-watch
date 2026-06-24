@@ -1,0 +1,35 @@
+{
+  "crawl_date": "2026-06-24",
+  "source": "globalpetrolprices.com",
+  "unit": "CNY/liter",
+  "prices": [
+    {
+      "country": "中国",
+      "price": 8.53,
+      "original_price": 8.529,
+      "currency": "CNY",
+      "date": "2026-06-22"
+    },
+    {
+      "country": "日本",
+      "price": 7.14,
+      "original_price": 169.7,
+      "currency": "JPY",
+      "date": "2026-06-22"
+    },
+    {
+      "country": "美国",
+      "price": 7.66,
+      "original_price": 1.127,
+      "currency": "USD",
+      "date": "2026-06-22"
+    },
+    {
+      "country": "德国",
+      "price": 10.75,
+      "original_price": 1.8,
+      "currency": "EUR",
+      "date": "2026-06-22"
+    }
+  ]
+}

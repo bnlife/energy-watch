@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球能源价格</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>全球能源价格</h1>
+        </header>
+
+        <div class="tabs">
+            <button class="tab active" data-tab="oil">油价（元/升）</button>
+            <button class="tab" data-tab="electricity">电价（元/kWh）</button>
+        </div>
+
+        <section class="content" id="content-oil">
+            <div class="table-box">
+                <table id="table-oil">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th><img src="images/cn.png" width="16" height="12"> 中国</th>
+                            <th><img src="images/jp.png" width="16" height="12"> 日本</th>
+                            <th><img src="images/us.png" width="16" height="12"> 美国</th>
+                            <th><img src="images/de.png" width="16" height="12"> 德国</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <div class="pagination" id="pagination-oil"></div>
+            </div>
+        </section>
+
+        <section class="content hidden" id="content-electricity">
+            <div class="table-box">
+                <table id="table-electricity">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th><img src="images/cn.png" width="16" height="12"> 中国</th>
+                            <th><img src="images/jp.png" width="16" height="12"> 日本</th>
+                            <th><img src="images/us.png" width="16" height="12"> 美国</th>
+                            <th><img src="images/de.png" width="16" height="12"> 德国</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <div class="pagination" id="pagination-electricity"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

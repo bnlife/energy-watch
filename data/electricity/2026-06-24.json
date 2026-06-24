@@ -1,0 +1,35 @@
+{
+  "crawl_date": "2026-06-24",
+  "source": "globalpetrolprices.com",
+  "unit": "CNY/kWh",
+  "prices": [
+    {
+      "country": "中国",
+      "price": 0.532,
+      "original_price": 0.532,
+      "currency": "CNY",
+      "date": "2025-09-01"
+    },
+    {
+      "country": "日本",
+      "price": 1.49,
+      "original_price": 35.405,
+      "currency": "JPY",
+      "date": "2025-09-01"
+    },
+    {
+      "country": "美国",
+      "price": 1.367,
+      "original_price": 0.201,
+      "currency": "USD",
+      "date": "2025-09-01"
+    },
+    {
+      "country": "德国",
+      "price": 2.215,
+      "original_price": 0.371,
+      "currency": "EUR",
+      "date": "2025-09-01"
+    }
+  ]
+}

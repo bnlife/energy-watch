@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #fafbfc;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #8c939a;
+    margin-top: 4px;
+}
+
+.tabs {
+    display: flex;
+    gap: 4px;
+    background: #f0f2f5;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.tab {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tab.active {
+    background: #fff;
+    color: #1a73e8;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.content.hidden {
+    display: none;
+}
+
+.table-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+th, td {
+    padding: 10px 6px;
+    text-align: right;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+    color: #8c939a;
+}
+
+th {
+    font-weight: 500;
+    color: #1a1a1a;
+    background: #fafbfc;
+}
+
+tbody tr:hover {
+    background: #f8f9fb;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 16px;
+}
+
+.page-btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e8eaed;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 13px;
+    color: #5f6368;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.page-btn:hover {
+    border-color: #1a73e8;
+    color: #1a73e8;
+}
+
+.page-btn.active {
+    background: #1a73e8;
+    border-color: #1a73e8;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 12px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    th, td {
+        padding: 8px 4px;
+        font-size: 12px;
+    }
+}
