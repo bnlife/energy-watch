@@ -1,9 +1,6 @@
 // GitHub raw URL 基础路径
 const BASE_URL = 'https://raw.githubusercontent.com/bnlife/energy-watch/gh-pages/data';
 
-// 国家代码映射
-const countries = ['china', 'japan', 'usa', 'germany'];
-
 // 状态
 let currentTab = 'oil';
 let pages = { oil: 1, electricity: 1 };

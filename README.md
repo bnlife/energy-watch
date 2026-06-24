@@ -2,6 +2,8 @@
 
 全球能源价格追踪器，监控中国、日本、美国、德国的汽油和居民电价。
 
+🔗 在线访问：https://bnlife.github.io/energy-watch/
+
 ## 数据来源
 
 [GlobalPetrolPrices.com](https://www.globalpetrolprices.com/) - 每周更新
@@ -10,7 +12,7 @@
 
 ## 自动更新
 
-GitHub Actions 每周一 09:00 (北京时间) 自动爬取最新数据。
+GitHub Actions 每周一 09:00 (北京时间) 自动爬取最新数据，同时更新 master 和 gh-pages 分支。
 
 ## 项目结构
 
@@ -45,7 +47,7 @@ python scripts/crawl.py
     {"country": "中国", "price": 8.53},
     {"country": "日本", "price": 7.14},
     {"country": "美国", "price": 7.66},
-    {"country": "德国", "price": 10.75}
+    {"country": "德国", "price": 13.94}
   ]
 }
 ```
